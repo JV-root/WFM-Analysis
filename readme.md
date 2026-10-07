@@ -42,9 +42,9 @@ This analysis was designed to answer key operational questions:
 
 The analysis follows this structure:
 
-1. **Data preparation and quality audit**
+1. **Data preparation**
 2. **Part 1: original analysis, preserved**
-3. **Part 2: review with hypothesis tests** (adherence, distribution, experience and the shape of the metrics)
+3. **Part 2: review with hypothesis tests** (data quality audit, adherence, distribution, experience and the shape of the metrics)
 4. **Recommendations**, split into what not to do and what to do with the available data
 5. **Conclusion**, in layers: what the operation shows, what the dataset does not allow, and the ceiling of the diagnosis
 
@@ -74,13 +74,13 @@ The central rule of Part 2 is to test before concluding: every causal claim come
 
 ## 📈 Visualization Standards
 
-This project applies advanced data visualization best practices:
+This project applies data visualization best practices:
 
 - Time series normalization (complete date range)
 - Percentage-based distributions for comparability
 - 95% confidence intervals in group comparisons
 - Highlight vs. secondary series styling
-- Direct labeling (no legends)
+- Direct labeling on series (legends only for reference lines and categories)
 - Minimalist design (no top/right borders)
 - Executive-style titles and subtitles
 - Explicit source and period annotation

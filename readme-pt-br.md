@@ -42,9 +42,9 @@ A análise foi desenhada para responder a perguntas operacionais centrais:
 
 A análise segue esta estrutura:
 
-1. **Preparação dos dados e auditoria de qualidade**
+1. **Preparação dos dados**
 2. **Parte 1: análise original, preservada**
-3. **Parte 2: revisão com testes de hipótese** (aderência, distribuição, experiência e forma das métricas)
+3. **Parte 2: revisão com testes de hipótese** (auditoria de qualidade dos dados, aderência, distribuição, experiência e forma das métricas)
 4. **Recomendações**, separadas entre o que não fazer e o que fazer com os dados disponíveis
 5. **Conclusão**, em camadas: o que a operação mostra, o que a base não permite e o teto do diagnóstico
 
@@ -74,13 +74,13 @@ A regra central da Parte 2 é testar antes de concluir: cada afirmação causal 
 
 ## 📈 Padrões de Visualização
 
-O projeto aplica boas práticas avançadas de visualização de dados:
+O projeto aplica boas práticas de visualização de dados:
 
 - Normalização de séries temporais (intervalo de datas completo)
 - Distribuições percentuais para permitir comparabilidade
 - Intervalos de confiança de 95% em comparações entre grupos
 - Diferenciação visual entre série em destaque e séries secundárias
-- Rotulagem direta nas séries (sem legendas)
+- Rotulagem direta nas séries (legenda apenas para linhas de referência e categorias)
 - Design minimalista (sem bordas superior e direita)
 - Títulos e subtítulos em estilo executivo
 - Indicação explícita de fonte e período
